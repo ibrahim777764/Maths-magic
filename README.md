@@ -49,3 +49,6 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
+## 📝 License
+
+This project is [MIT](./MIT.MD) licensed.
