@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ibrahim777764/Maths-magic/issues"
   },
-  "homepage": "https://github.com/ibrahim777764/Maths-magic#readme"
+  "homepage": "https://github.com/ibrahim777764/Maths-magic#readme",
+  "devDependencies": {
+    "hint": "^7.0.1"
+  }
 }
