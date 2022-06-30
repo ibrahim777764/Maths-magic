@@ -47,7 +47,7 @@ export default function calculate(obj, buttonName) {
   }
 
   if (buttonName === '.') {
-    if (obj.next) {
+    if (obj.next) {\
       if (obj.next.includes('.')) {
         return { ...obj };
       }
