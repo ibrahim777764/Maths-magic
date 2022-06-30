@@ -1,6 +1,3 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 import calculate from '../Logic/Calculate';
 
@@ -12,7 +9,6 @@ export default class calculator extends Component {
 
   changeMessege(name) {
     const result = calculate(this.state, name);
-    // eslint-disable-next-line react/no-access-state-in-setstate
     this.setState({ ...this.state, ...result });
   }
 
@@ -84,6 +80,7 @@ export default class calculator extends Component {
           </div>
         </div>
       </div>
+
     );
   }
 }
