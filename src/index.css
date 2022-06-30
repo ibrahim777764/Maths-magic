@@ -1,27 +1,62 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+* {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+body {
+  display: flex;
+}
+
+.btn {
+  width: 100%;
+  font-family: poppins, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #a1a1a7;
+  width: 30%;
+  margin-top: 3rem;
+}
+
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  height: 20rem;
+}
+
+.zero {
+  grid-area: 5/1/5/3;
+}
+
+.output {
+  font-family: poppins, sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.side {
+  background: #f5913e;
 }
