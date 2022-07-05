@@ -9,6 +9,7 @@
 body {
   display: flex;
   transition: 0.5s;
+  background-color: blanchedalmond;
 }
 
 .btn {
@@ -71,8 +72,9 @@ body {
   top: 0;
   left: 0;
   z-index: 20;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   transition: 0.3s;
+  color: rgb(230, 230, 230);
 }
 
 .links {
@@ -135,5 +137,5 @@ body {
 }
 
 .selected {
-  color: lightslategray;
+  color: rgb(245, 245, 245);
 }
