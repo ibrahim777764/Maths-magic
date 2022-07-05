@@ -1,22 +1,13 @@
 import React, { Component } from 'react';
-import Header from './Components/Header';
-import Home from './Components/Home';
-import CalculatorUI from './Components/CalculatorUI';
-import Quote from './Components/Quote';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-const App = () => {
-  return (
-    <Router>
-      <div className='app' id='home'>
-        <Header />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/calculator' element={<CalculatorUI />} />
-          <Route path='/quote' element={<Quote />} />
-        </Routes>
-      </div>
-    </Router>
-  );
-};
+import Calculator from './Components/Calculator';
 
-export default App;
+// eslint-disable-next-line react/prefer-stateless-function
+export default class App extends Component {
+  render() {
+    return (
+      <div className="app">
+        <Calculator />
+      </div>
+    );
+  }
+}
