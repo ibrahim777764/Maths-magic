@@ -12,7 +12,9 @@
 - Frameworks: React
 
 ## Live Demo (if available)
+https://full-web-heroku.herokuapp.com/
 
+https://app.netlify.com/sites/gentle-rabanadas-462d6a/overview
 
 ## Screenshots
 
